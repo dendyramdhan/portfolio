@@ -19,6 +19,11 @@
     .menu-btn.close .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -6px); }
 
+.menu {
+  visibility: hidden; }
+  .menu.show {
+    visibility: visible; }
+
 * {
   box-sizing: border-box; }
 
