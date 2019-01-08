@@ -96,7 +96,11 @@
     text-align: center; }
     main .lg-heading {
       line-height: 1;
-      margin-bottom: 1rem; } }
+      margin-bottom: 1rem; }
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
